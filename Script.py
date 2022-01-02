@@ -209,7 +209,17 @@ Need to delete lots of messages? That's what purges are for!
 • IMDb should have admin privillage.
 • These commands works on group.
 • These commands can be used by Only admin."""
+    
+    TTS_TXT = """<b>🗣 TEXT To Speech
 
+A Module To Convert TEXT To Voice With Language Support
+
+📚 Avaible Command:
+
+◉ /tts :- Reply To Any TEXT Message With Language Code To Convert As Audio
+
+⚠️ Example :- /tts en (English)</b>"""
+    
     RESTRIC_TXT = """Help: <b>Restrictions</b>
 
 Some people need to be publicly banned; spammers, annoyances, or just trolls.
