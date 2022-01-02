@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """b>HOW ARE YOU {} DUDE 🤩,Nice To Meet You🙌</b>
+    START_TXT = """<b>HOW ARE YOU {} DUDE 🤩,Nice To Meet You🙌</b>
 \n<i>𝖨'𝗆 𝗃𝗎𝗌𝗍 𝖺 𝗌𝗂𝗆𝗉𝗅𝖾 𝗉𝗋𝖾 - 𝖿𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝖾𝖽 𝖺𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍</i>
 <b><i>Its Simple To Use Me..☺️,Just Add Me To Your Group As Admin,Thats All I Will Provide Movies There..🥰</i></b>
 """
