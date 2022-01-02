@@ -439,7 +439,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖲𝗍𝗂𝖼𝗄𝖾𝗋', callback_data='stickerid')
             ],[
             InlineKeyboardButton('𝖲𝗈𝗎𝗋𝖼𝖾', callback_data='source'),
-            InlineKeyboardButton('𝖲𝗍𝖺𝗍𝗎𝗌', callback_data='stats'),
+            InlineKeyboardButton('𝖳𝗍𝗌', callback_data='tts'),
             InlineKeyboardButton('𝖨𝗆𝖽𝖻', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('🏡 𝖧𝗈𝗆𝖾', callback_data='start'),
@@ -507,6 +507,16 @@ parse_mode='html'
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.CORONA_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "tts":
+        buttons = [[
+            InlineKeyboardButton('✖️ 𝖡𝖺𝖼𝗄', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.TTS_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
