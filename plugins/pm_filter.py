@@ -415,34 +415,32 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('😎 𝐚𝐝𝐦𝐢𝐧 ', callback_data='admin')
+            InlineKeyboardButton('𝖠𝖽𝗆𝗂𝗇', callback_data='admin'),
+            InlineKeyboardButton('𝖢𝗈𝗇𝗇𝖾𝖼𝗍', callback_data='coct'),
+            InlineKeyboardButton('𝖥𝗂𝗅𝗍𝖾𝗋𝗌', callback_data='auto_manual')
             ],[
-            InlineKeyboardButton('🗳️ 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 ', callback_data='coct'),
-            InlineKeyboardButton('👻 𝐟𝐢𝐥𝐭𝐞𝐫𝐬 ', callback_data='auto_manual'),
-            InlineKeyboardButton('📖 𝐠𝐭𝐫𝐚𝐧𝐬 ', callback_data='gtrans')
+            InlineKeyboardButton('𝖦𝗍𝗋𝖺𝗇𝗌', callback_data='gtrans'),
+            InlineKeyboardButton('𝖨𝗇𝖿𝗈', callback_data='info'),
+            InlineKeyboardButton('𝖯𝖺𝗌𝗍𝖾', callback_data='paste')
             ],[
-            InlineKeyboardButton('📄 𝐢𝐧𝐟𝐨 ', callback_data='info'),
-            InlineKeyboardButton('🖥️ 𝐩𝐚𝐬𝐭𝐞 ', callback_data='paste')
+            InlineKeyboardButton('𝖯𝗎𝗋𝗀𝖾', callback_data='purge')
+            InlineKeyboardButton('𝖱𝖾𝗌𝗍𝗋𝗂𝖼𝗍', callback_data='restric'),
+            InlineKeyboardButton('𝖲𝖾𝖺𝗋𝖼𝗁', callback_data='search'),
             ],[
-            InlineKeyboardButton('💣 𝐩𝐮𝐫𝐠𝐞 ', callback_data='purge')
+            InlineKeyboardButton('𝖳𝗀𝗋𝖺𝗉𝗁', callback_data='tgraph')
+            InlineKeyboardButton('𝖪𝗇𝗈𝗐𝗇', callback_data='whois'),
+            InlineKeyboardButton('𝖥𝗎𝗇', callback_data='fun')
             ],[
-            InlineKeyboardButton('🔇 𝐫𝐞𝐬𝐭𝐫𝐢𝐜𝐭 ', callback_data='restric'),
-            InlineKeyboardButton('🔍 𝐬𝐞𝐚𝐫𝐜𝐡 ', callback_data='search'),
-            InlineKeyboardButton('📸 𝐭𝐠𝐫𝐚𝐩𝐡 ', callback_data='tgraph')
+            InlineKeyboardButton('𝖠𝗅𝗂𝗏𝖾', callback_data='alive')
+            InlineKeyboardButton('𝖲𝗈𝗇𝗀', callback_data='song'),
+            InlineKeyboardButton('𝖩𝗌𝗈𝗇', callback_data='json'),
             ],[
-            InlineKeyboardButton('🤔 𝐰𝐡𝐨𝐢𝐬 ', callback_data='whois'),
-            InlineKeyboardButton('🤡 𝐟𝐮𝐧 ', callback_data='fun')
+            InlineKeyboardButton('𝖯𝗂𝗇', callback_data='pin')
+            InlineKeyboardButton('𝖢𝗈𝗋𝗈𝗇𝖺', callback_data='corona'),
+            InlineKeyboardButton('𝖲𝗍𝗂𝖼𝗄𝖾𝗋', callback_data='stickerid')
             ],[
-            InlineKeyboardButton('🥱 𝐚𝐥𝐢𝐯𝐞 ', callback_data='alive')
-            ],[
-            InlineKeyboardButton('🎶 𝐬𝐨𝐧𝐠 ', callback_data='song'),
-            InlineKeyboardButton('🖨️ 𝐣𝐬𝐨𝐧 ', callback_data='json'),
-            InlineKeyboardButton('📎 𝐩𝐢𝐧 ', callback_data='pin')
-            ],[
-            InlineKeyboardButton('🦠 𝐜𝐨𝐫𝐨𝐧𝐚 ', callback_data='corona'),
-            InlineKeyboardButton('🖨️ 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐢𝐝 ', callback_data='stickerid')
-            ],[
-            InlineKeyboardButton('« Back', callback_data='start')
+            InlineKeyboardButton('🏡 𝖧𝗈𝗆𝖾', callback_data='start'),
+            InlineKeyboardButton('🔰 𝖲𝗍𝖺𝗍𝗎𝗌', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
