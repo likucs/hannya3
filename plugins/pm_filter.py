@@ -443,6 +443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖨𝗆𝖽𝖻', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('🏡 𝖧𝗈𝗆𝖾', callback_data='start'),
+            InlineKeyboardButton('🔰 𝖲𝗍𝖺𝗍𝗌', callback_data='stats'),
             InlineKeyboardButton('⛔ 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
