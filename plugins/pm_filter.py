@@ -423,19 +423,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖨𝗇𝖿𝗈', callback_data='info'),
             InlineKeyboardButton('𝖯𝖺𝗌𝗍𝖾', callback_data='paste')
             ],[
-            InlineKeyboardButton('𝖯𝗎𝗋𝗀𝖾', callback_data='purge')
+            InlineKeyboardButton('𝖯𝗎𝗋𝗀𝖾', callback_data='purge'),
             InlineKeyboardButton('𝖱𝖾𝗌𝗍𝗋𝗂𝖼𝗍', callback_data='restric'),
-            InlineKeyboardButton('𝖲𝖾𝖺𝗋𝖼𝗁', callback_data='search'),
+            InlineKeyboardButton('𝖲𝖾𝖺𝗋𝖼𝗁', callback_data='search')
             ],[
-            InlineKeyboardButton('𝖳𝗀𝗋𝖺𝗉𝗁', callback_data='tgraph')
+            InlineKeyboardButton('𝖳𝗀𝗋𝖺𝗉𝗁', callback_data='tgraph'),
             InlineKeyboardButton('𝖪𝗇𝗈𝗐𝗇', callback_data='whois'),
             InlineKeyboardButton('𝖥𝗎𝗇', callback_data='fun')
             ],[
-            InlineKeyboardButton('𝖠𝗅𝗂𝗏𝖾', callback_data='alive')
+            InlineKeyboardButton('𝖠𝗅𝗂𝗏𝖾', callback_data='alive'),
             InlineKeyboardButton('𝖲𝗈𝗇𝗀', callback_data='song'),
-            InlineKeyboardButton('𝖩𝗌𝗈𝗇', callback_data='json'),
+            InlineKeyboardButton('𝖩𝗌𝗈𝗇', callback_data='json')
             ],[
-            InlineKeyboardButton('𝖯𝗂𝗇', callback_data='pin')
+            InlineKeyboardButton('𝖯𝗂𝗇', callback_data='pin'),
             InlineKeyboardButton('𝖢𝗈𝗋𝗈𝗇𝖺', callback_data='corona'),
             InlineKeyboardButton('𝖲𝗍𝗂𝖼𝗄𝖾𝗋', callback_data='stickerid')
             ],[
@@ -455,15 +455,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('status', callback_data='stats'),
-            InlineKeyboardButton('source', callback_data='source')
+            InlineKeyboardButton('🔰 𝖲𝗍𝖺𝗍𝗎𝗌', callback_data='stats'),
+            InlineKeyboardButton('🔖 𝖲𝗈𝗎𝗋𝖼𝖾', callback_data='source'),
+            InlineKeyboardButton('🥺 𝖧𝖾𝗅𝗉', callback_data='help')
             ],[
-            InlineKeyboardButton('search movie', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('help & commands', callback_data='help')
-            ],[
-            InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton('Close ✗', callback_data='close_data')
+            InlineKeyboardButton('🏡 𝖧𝗈𝗆𝖾', callback_data='start'),
+            InlineKeyboardButton('⛔ 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
