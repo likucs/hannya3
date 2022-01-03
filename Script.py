@@ -43,7 +43,6 @@ Song Download Module, For Those Who Love Music
 🎈 Command
 
 • /song or /mp3 (songname) - download song from yt servers.
-• /video or /mp4 (songname) - download video from yt servers
 
 Usage
 - working pm and groups"""
@@ -224,6 +223,9 @@ A Module To Convert TEXT To Voice With Language Support
 
 𝖠𝗋𝖾 𝖸𝗈𝗎 𝖫𝗂𝗄𝖾 𝖳𝗁𝖾 𝖡𝗈𝗍 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖮𝗎𝗋 𝖳𝖾𝖺𝗆 ☺️
 ~𝗕𝗬 𝗠𝗢𝗩𝗜𝗘 𝗛𝗨𝗕</b>"""
+    YTVID_TXT = """<b>𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖠𝗇𝗒 𝖬𝗉4 𝖸𝗈𝗎𝗍𝗎𝖻𝖾 𝖵𝗂𝖽𝖾𝗈𝗌..❣️</b>
+
+• /video or /mp4 (songname) - <b>download video from yt servers</b>"""
     RESTRIC_TXT = """Help: <b>Restrictions</b>
 
 Some people need to be publicly banned; spammers, annoyances, or just trolls.
