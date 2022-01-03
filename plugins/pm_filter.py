@@ -535,7 +535,7 @@ parse_mode='html'
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "country":
+    elif query.data == "countryinfo":
         buttons = [[
             InlineKeyboardButton('✖️ 𝖡𝖺𝖼𝗄', callback_data='help')
         ]]
