@@ -442,6 +442,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖳𝗍𝗌', callback_data='tts'),
             InlineKeyboardButton('𝖨𝗆𝖽𝖻', switch_inline_query_current_chat='')
             ],[
+            InlineKeyboardButton('𝖲𝗎𝗉𝗉𝗈𝗋𝗍', callback_data='supp'),
+            InlineKeyboardButton('𝖸𝖳𝗏𝗂𝖽𝖾𝗈', callback_data='ytvid'),
+            InlineKeyboardButton('𝖢𝗈𝗎𝗇𝗍𝗋𝗒', callback_data='country')
+            ],[
             InlineKeyboardButton('🏡 𝖧𝗈𝗆𝖾', callback_data='start'),
             InlineKeyboardButton('🔰 𝖲𝗍𝖺𝗍𝗌', callback_data='stats'),
             InlineKeyboardButton('⛔ 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
@@ -518,6 +522,36 @@ parse_mode='html'
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.TTS_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "ytvid":
+        buttons = [[
+            InlineKeyboardButton('✖️ 𝖡𝖺𝖼𝗄', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.YTVID_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "country":
+        buttons = [[
+            InlineKeyboardButton('✖️ 𝖡𝖺𝖼𝗄', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.COUNTRY_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "supp":
+        buttons = [[
+            InlineKeyboardButton('✖️ 𝖡𝖺𝖼𝗄', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SUPP_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
