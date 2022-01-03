@@ -444,7 +444,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝖲𝗎𝗉𝗉𝗈𝗋𝗍', callback_data='supp'),
             InlineKeyboardButton('𝖸𝖳𝗏𝗂𝖽𝖾𝗈', callback_data='ytvid'),
-            InlineKeyboardButton('𝖢𝗈𝗎𝗇𝗍𝗋𝗒', callback_data='country')
+            InlineKeyboardButton('𝖢𝗈𝗎𝗇𝗍𝗋𝗒', callback_data='countryinfo')
             ],[
             InlineKeyboardButton('🏡 𝖧𝗈𝗆𝖾', callback_data='start'),
             InlineKeyboardButton('🔰 𝖲𝗍𝖺𝗍𝗌', callback_data='stats'),
