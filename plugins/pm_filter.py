@@ -547,6 +547,10 @@ parse_mode='html'
         )
     elif query.data == "supp":
         buttons = [[
+            InlineKeyboardButton('𝖦𝖱𝖮𝖴𝖯', url='https://t.me/moviehubgroupp')
+            ],[
+            InlineKeyboardButton('𝖢𝖧𝖠𝖭𝖭𝖤𝖫', url='https://t.me/+T-JgtVsu31E0YmY1')
+            ],[
             InlineKeyboardButton('✖️ 𝖡𝖺𝖼𝗄', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
