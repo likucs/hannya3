@@ -220,6 +220,10 @@ A Module To Convert TEXT To Voice With Language Support
 
 ⚠️ Example :- /tts en (English)</b>"""
     
+    SUPP_TXT = """<b>𝖧𝖾𝗋𝖾 𝗂𝗌 𝖳𝗁𝖾 𝖮𝗎𝗋 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉𝗌 𝖫𝗂𝗇𝗄𝗌...🙃
+
+𝖠𝗋𝖾 𝖸𝗈𝗎 𝖫𝗂𝗄𝖾 𝖳𝗁𝖾 𝖡𝗈𝗍 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖮𝗎𝗋 𝖳𝖾𝖺𝗆 ☺️
+~𝗕𝗬 𝗠𝗢𝗩𝗜𝗘 𝗛𝗨𝗕</b>"""
     RESTRIC_TXT = """Help: <b>Restrictions</b>
 
 Some people need to be publicly banned; spammers, annoyances, or just trolls.
