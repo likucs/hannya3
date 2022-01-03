@@ -226,7 +226,11 @@ A Module To Convert TEXT To Voice With Language Support
     YTVID_TXT = """<b>𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖠𝗇𝗒 𝖬𝗉4 𝖸𝗈𝗎𝗍𝗎𝖻𝖾 𝖵𝗂𝖽𝖾𝗈𝗌..❣️</b>
 
 • /video or /mp4 (songname) - <b>download video from yt servers</b>"""
-    COUNTRY_TXT = """hello"""
+    COUNTRY_TXT = """<b>here is the help for County information module</b>
+<b>I am a country information finder</b>
+<b>/country [countryname]</b> 
+<b>I can find information of any country of the world</b>
+"""
     RESTRIC_TXT = """Help: <b>Restrictions</b>
 
 Some people need to be publicly banned; spammers, annoyances, or just trolls.
