@@ -229,8 +229,7 @@ A Module To Convert TEXT To Voice With Language Support
     COUNTRY_TXT = """<b>here is the help for County information module</b>
 <b>I am a country information finder</b>
 <b>/country [countryname]</b> 
-<b>I can find information of any country of the world</b>
-"""
+<b>I can find information of any country of the world</b>"""
     RESTRIC_TXT = """Help: <b>Restrictions</b>
 
 Some people need to be publicly banned; spammers, annoyances, or just trolls.
