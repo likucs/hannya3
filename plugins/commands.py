@@ -42,7 +42,7 @@ async def start(client, message):
             InlineKeyboardButton('𝖧𝖾𝗅𝗉 ⚙️', callback_data='help'),
             InlineKeyboardButton('𝖠𝖻𝗈𝗎𝗍 😎', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat='')
+            InlineKeyboardButton('♥️ 𝖥𝗈𝗅𝗅𝗈𝗐', url='https://www.instagram.com/shivaprasad_k123/')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
