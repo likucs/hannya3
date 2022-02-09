@@ -410,11 +410,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('ᴏɴᴡᴇʀ', callback_data='onwershiva'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Rexie_Support')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+UbXox_VzM3g0MjU1')
             ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('sᴛᴀᴛs', callback_data='stats'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/+T-JgtVsu31E0YmY1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
