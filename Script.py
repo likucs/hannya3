@@ -1,7 +1,7 @@
 class script(object):
-    START_TXT = """<b>HOW ARE YOU {} DUDE 🤩,Nice To Meet You🙌</b>
-\n<i>𝖨'𝗆 𝗃𝗎𝗌𝗍 𝖺 𝗌𝗂𝗆𝗉𝗅𝖾 𝗉𝗋𝖾 - 𝖿𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝖾𝖽 𝖺𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍</i>
-<b><i>Its Simple To Use Me..☺️,Just Add Me To Your Group As Admin,Thats All I Will Provide Movies There..🥰</i></b>
+    START_TXT = """<b>Hᴇʟʟᴏ {}
+    
+Sᴏʀʀʏ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ <a href='https://t.me/Rexie_Support'>𝖬ᴏᴠɪᴇ 𝖧ᴜʙ</a> Gʀᴏᴜᴘ. Nᴏ ᴏᴛʜᴇʀ ᴄᴏᴍᴍᴀɴᴅ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴ ᴛʜɪs ʙᴏᴛ ᴇxᴄᴇᴘᴛ sᴛᴀʀᴛ. ᴅᴏɴ’ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ</b>
 """
     HELP_TXT = """<b>HEY {} DUDE 🙋‍♂️
 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖧𝖾𝗅𝗉</b>"""
@@ -91,6 +91,12 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 • /filters - list all the filters of a chat.
 • /del - delete a specific filter in chat.
 • /delall - delete the whole filters in a chat (chat owner only)."""
+
+    ONWERSHIVA_TXT = """"⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
+    
+• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝖲ʜɪᴠᴀ
+• ᴜꜱᴇʀɴᴀᴍᴇ : @OGGY123kph
+“ 𝐷ᴏ 𝑁ᴏᴛ 𝑤ᴀsᴛᴇ 𝑇ɪᴍᴇ ᴏɴ 𝑈ɴɴᴇᴄᴇssᴀʀʏ 𝑇ʜɪɴɢs ᴏɴʟʏ ɪғ ɪᴛ ᴅᴏᴇs 𝑁ᴏᴛ 𝐻ᴇʟᴘ 𝑌ᴏᴜ😉. ”"""
 
     BUTTON_TXT = """Help: <b>Buttons</b>
 
