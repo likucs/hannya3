@@ -398,12 +398,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url='http://t.me/rexie_autofilterbot?startgroup=true')
-            ],[
-            InlineKeyboardButton('📚 𝖧𝖾𝗅𝗉', callback_data='help'),
-            InlineKeyboardButton('🔰 𝖠𝖻𝗈𝗎𝗍', callback_data='about')
-            ],[
-            InlineKeyboardButton('🔍 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat='')
+            InlineKeyboardButton('ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʜᴇʟᴘ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -414,41 +409,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝖠𝖽𝗆𝗂𝗇', callback_data='admin'),
-            InlineKeyboardButton('𝖢𝗈𝗇𝗇𝖾𝖼𝗍', callback_data='coct'),
-            InlineKeyboardButton('𝖥𝗂𝗅𝗍𝖾𝗋𝗌', callback_data='auto_manual')
+            InlineKeyboardButton('ᴏɴᴡᴇʀ', callback_data='onwershiva'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Rexie_Support')
             ],[
-            InlineKeyboardButton('𝖦𝗍𝗋𝖺𝗇𝗌', callback_data='gtrans'),
-            InlineKeyboardButton('𝖨𝗇𝖿𝗈', callback_data='info'),
-            InlineKeyboardButton('𝖯𝖺𝗌𝗍𝖾', callback_data='paste')
-            ],[
-            InlineKeyboardButton('𝖯𝗎𝗋𝗀𝖾', callback_data='purge'),
-            InlineKeyboardButton('𝖱𝖾𝗌𝗍𝗋𝗂𝖼𝗍', callback_data='restric'),
-            InlineKeyboardButton('𝖲𝖾𝖺𝗋𝖼𝗁', callback_data='search')
-            ],[
-            InlineKeyboardButton('𝖳𝗀𝗋𝖺𝗉𝗁', callback_data='tgraph'),
-            InlineKeyboardButton('𝖪𝗇𝗈𝗐𝗇', callback_data='whois'),
-            InlineKeyboardButton('𝖥𝗎𝗇', callback_data='fun')
-            ],[
-            InlineKeyboardButton('𝖠𝗅𝗂𝗏𝖾', callback_data='alive'),
-            InlineKeyboardButton('𝖲𝗈𝗇𝗀', callback_data='song'),
-            InlineKeyboardButton('𝖩𝗌𝗈𝗇', callback_data='json')
-            ],[
-            InlineKeyboardButton('𝖯𝗂𝗇', callback_data='pin'),
-            InlineKeyboardButton('𝖢𝗈𝗋𝗈𝗇𝖺', callback_data='corona'),
-            InlineKeyboardButton('𝖲𝗍𝗂𝖼𝗄𝖾𝗋', callback_data='stickerid')
-            ],[
-            InlineKeyboardButton('𝖲𝗈𝗎𝗋𝖼𝖾', callback_data='source'),
-            InlineKeyboardButton('𝖳𝗍𝗌', callback_data='tts'),
-            InlineKeyboardButton('𝖨𝗆𝖽𝖻', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('𝖲𝗎𝗉𝗉𝗈𝗋𝗍', callback_data='supp'),
-            InlineKeyboardButton('𝖸𝖳𝗏𝗂𝖽𝖾𝗈', callback_data='ytvid'),
-            InlineKeyboardButton('𝖢𝗈𝗎𝗇𝗍𝗋𝗒', callback_data='countryinfo')
-            ],[
-            InlineKeyboardButton('🏡 𝖧𝗈𝗆𝖾', callback_data='start'),
-            InlineKeyboardButton('🔰 𝖲𝗍𝖺𝗍𝗌', callback_data='stats'),
-            InlineKeyboardButton('⛔ 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
+            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('sᴛᴀᴛs', callback_data='stats'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
