@@ -761,6 +761,17 @@ InlineKeyboardButton('🔖 𝖬𝖺𝗇𝗎𝖺𝗅 𝖥𝗂𝗅𝗍𝖾𝗋', c
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "onwershiva":
+        buttons = [[
+            InlineKeyboardButton('✖️ 𝖡𝖺𝖼𝗄', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.ONWERSHIVA_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "restric":
         buttons = [[
             InlineKeyboardButton('✖️ 𝖡𝖺𝖼𝗄', callback_data='help')
