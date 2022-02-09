@@ -751,8 +751,8 @@ InlineKeyboardButton('🔖 𝖬𝖺𝗇𝗎𝖺𝗅 𝖥𝗂𝗅𝗍𝖾𝗋', c
         )
     elif query.data == "stats":
         buttons = [[
-            InlineKeyboardButton('✖️ 𝖡𝖺𝖼𝗄', callback_data='about'),
-            InlineKeyboardButton('𝖱𝖾𝖿𝗋𝖾𝗌𝗁 🔄', callback_data='rfrsh')
+            InlineKeyboardButton('✖️ ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('ʀᴇғʀᴇsʜ 🔄', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -773,8 +773,8 @@ InlineKeyboardButton('🔖 𝖬𝖺𝗇𝗎𝖺𝗅 𝖥𝗂𝗅𝗍𝖾𝗋', c
     elif query.data == "rfrsh":
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
-            InlineKeyboardButton('✖️ 𝖡𝖺𝖼𝗄', callback_data='about'),
-            InlineKeyboardButton('Refresh ⧖', callback_data='rfrsh')
+            InlineKeyboardButton('✖️ ʙᴀᴄᴋ', callback_data='back'),
+            InlineKeyboardButton('ʀᴇғʀᴇsʜ 🔄', callback_data='rfrsh')
         ]]
     
 
