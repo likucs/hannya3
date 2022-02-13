@@ -102,9 +102,9 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/+B30iFua0Hk8yYWU9"),
-                                              InlineKeyboardButton("sʜᴀʀᴇ", url="https://t.me/share/url?url=https://t.me/MovieHubOtt") ],
-                                            [ InlineKeyboardButton("🔖ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴜʙᴛɪᴛʟᴇ🔖", url="https://telegra.ph/httpstelegraphfilee908cfc0d08e47ca337ecjpg-01-06") ] ] )
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("🔰 ɢʀᴏᴜᴘ", url="https://t.me/+B30iFua0Hk8yYWU9"),
+                                              InlineKeyboardButton("🎁 sʜᴀʀᴇ", url="https://t.me/share/url?url=https://t.me/MovieHubOtt") ],
+                                            [ InlineKeyboardButton("🔖 sᴜɴᴛɪᴛʟᴇ", url="https://t.me/subtitle_dl_bot") ] ] )
         )
                     
 
