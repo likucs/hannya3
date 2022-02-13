@@ -104,7 +104,7 @@ async def start(client, message):
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("🔰 ɢʀᴏᴜᴘ", url="https://t.me/+B30iFua0Hk8yYWU9"),
                                               InlineKeyboardButton("🎁 sʜᴀʀᴇ", url="https://t.me/share/url?url=https://t.me/MovieHubOtt") ],
-                                            [ InlineKeyboardButton("🔖 sᴜɴᴛɪᴛʟᴇ", url="https://t.me/subtitle_dl_bot") ] ] )
+                                            [ InlineKeyboardButton("🔖 sᴜʙᴛɪᴛʟᴇ", url="https://t.me/subtitle_dl_bot") ] ] )
         )
                     
 
