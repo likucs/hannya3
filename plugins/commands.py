@@ -103,15 +103,7 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/+B30iFua0Hk8yYWU9"),
-                                              InlineKeyboardButton("sʜᴀʀᴇ", url="https://t.me/share/url?url=https://t.me/share/url?url=😱 MOVIE HUB 😱
-
-ഏത് അർധരാത്രി ചോദിച്ചാലും പടം കിട്ടും, ലോകത്തിലെ ഒട്ടുമിക്ക ഭാഷകളിലുമുള്ള സിനിമകളുടെ കളക്ഷൻ.. ❤️
-
-👇 GROUP LINK 👇
-https://t.me/+B30iFua0Hk8yYWU9
-https://t.me/+B30iFua0Hk8yYWU9
-https://t.me/+B30iFua0Hk8yYWU9
-https://t.me/+B30iFua0Hk8yYWU9") ],
+                                              InlineKeyboardButton("sʜᴀʀᴇ", url="https://t.me/share/url?url=https://t.me/MovieHubOtt") ],
                                             [ InlineKeyboardButton("🔖ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴜʙᴛɪᴛʟᴇ🔖", url="https://telegra.ph/httpstelegraphfilee908cfc0d08e47ca337ecjpg-01-06") ] ] )
         )
                     
