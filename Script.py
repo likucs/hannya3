@@ -282,11 +282,11 @@ This module only works for my admins
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all users."""
 
-    STATUS_TXT = """<b>Total Files:</b> <code>{}</code>
-<b>Total Users:</b> <code>{}</code>
-<b>Total Chats:</b> <code>{}</code>
-<b>Used Storage:</b> <code>{}</code> MiB
-<b>Free Storage:</b> <code>{}</code> MiB"""
+    STATUS_TXT = """<b>🗂️ Total Files:</b> <code>{}</code>
+<b>👤 Total Users:</b> <code>{}</code>
+<b>👥 Total Chats:</b> <code>{}</code>
+<b>📈 Used Storage:</b> <code>{}</code> MB
+<b>📊 Free Storage:</b> <code>{}</code> MB"""
 
     FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
 
@@ -300,7 +300,8 @@ Total Members = <code>{}</code>
 Added By - {}
 """
 
-    LOG_TEXT_P = """#NewUser
+    LOG_TEXT_P = """ʙᴏᴛ - ᴇʟᴏɴ ᴍᴜsᴋ 🔰
+<b>ɴᴇᴡ ᴜsᴇʀ</b>
 ID - <code>{}</code>
 Name - {}"""
 
