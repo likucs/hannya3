@@ -97,7 +97,7 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 • /del - delete a specific filter in chat.
 • /delall - delete the whole filters in a chat (chat owner only)."""
 
-    REXIENEXT_TXT = """📚 ᴄᴏᴍᴍᴀɴᴅs - 2 📚"""
+    REXIENEXT_TXT = """<b>📚 ᴄᴏᴍᴍᴀɴᴅs - 2 📚</b>"""
     ONWERSHIVA_TXT = """"⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : 𝖲ʜɪᴠᴀ
