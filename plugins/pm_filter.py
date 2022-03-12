@@ -409,13 +409,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
+            InlineKeyboardButton('ᴏɴᴡᴇʀ', callback_data='admin'),
             InlineKeyboardButton('ᴏɴᴡᴇʀ', callback_data='onwershiva'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+UbXox_VzM3g0MjU1')
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct')
             ],[
-            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('sᴛᴀᴛs', callback_data='stats'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/+T-JgtVsu31E0YmY1')
+            InlineKeyboardButton('ғɪʟᴛᴇʀs', callback_data='auto_manual'),
+            InlineKeyboardButton('ɢᴛʀᴀɴs', callback_data='gtrans'),
+            InlineKeyboardButton('info', callback_data='info')
+            ],[
+            InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='paste'),
+            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge'),
+            InlineKeyboardButton('ʀᴇsᴛʀɪᴄᴛ', callback_data='restric')
+            ],[
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', callback_data='search'),
+            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph'),
+            InlineKeyboardButton('ғᴜɴ', callback_data='fun')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -448,8 +456,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.ALIVE_TXT,
             reply_markup=reply_markup,
-
-parse_mode='html'
+            parse_mode='html'
+        )
+    elif query.data == "rexienext":
+        buttons = [[
+            InlineKeyboardButton('✖️ 𝖡𝖺𝖼𝗄', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.REXIENEXT_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
         )
     elif query.data == "whois":
         buttons = [[
