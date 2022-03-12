@@ -1,12 +1,11 @@
 class script(object):
     START_TXT = """<b>𝖧ᴇʟʟᴏ {} 🙋🏻‍♂️
+
 𝖬ʏ 𝖭ᴀᴍᴇ ɪs <a href='https://t.me/MH_elonmusk_bot'>𝖤ʟᴏɴ 𝖬ᴜsᴋ.</a> 𝖠 𝖲ᴍᴀʀᴛ 𝖱ᴏʙᴏᴛ 𝖶ɪᴛʜ 𝖬ᴀɴʏ 𝖠ᴍᴀᴢɪɴɢ 𝖥ᴇᴀᴛᴜʀᴇs. 𝖨 𝖢ᴀɴ 𝖯ʀᴏᴠɪᴅᴇ 𝖬ᴏᴠɪᴇs & 𝖧ᴇʟᴘ 𝖸ᴏᴜ 𝖳ᴏ 𝖬ᴀɴᴀɢᴇ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘs, 𝖩ᴜsᴛ 𝖠ᴅᴅ 𝖬ᴇ 𝖳ᴏ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘ 𝖠s 𝖠ᴅᴍɪɴ 𝖠ɴᴅ 𝖤ɴᴊᴏʏ.....🥰</b>
 """
     HELP_TXT = """<b>HEY {} DUDE 🙋‍♂️
 📚 𝖢ᴏᴍᴍᴀɴᴅ ʜᴇʟᴘ 📚</b>"""
     ABOUT_TXT = """
-<code> IAM JUST A  Auto-Filter-Bot </code>🚶‍♂️⚠️
-
 <b>🤖 ʙᴏᴛ ɴᴀᴍᴇ: <a href='https://t.me/MH_elonmusk_bot'>𝖤ʟᴏɴ 𝖬ᴜsᴋ.</a>
 
 📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/'>ᴘʏᴛʜᴏɴ</a>
