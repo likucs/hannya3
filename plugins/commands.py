@@ -40,7 +40,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs➕', url='http://t.me/MH_elonmusk_bot?startgroup=true')
         ],[
             InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😎 ᴀʙᴏᴜʀ', callback_data='about')
+            InlineKeyboardButton('😎 ᴀʙᴏᴜᴛ', callback_data='about')
         ],[ 
             InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Rexie_Support')
         ]]
@@ -80,7 +80,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs➕', url='http://t.me/MH_elonmusk_bot?startgroup=true')
         ],[
             InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😎 ᴀʙᴏᴜʀ', callback_data='about')
+            InlineKeyboardButton('😎 ᴀʙᴏᴜᴛ', callback_data='about')
         ],[ 
             InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Rexie_Support')
         ]]
