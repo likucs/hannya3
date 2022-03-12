@@ -424,6 +424,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('sᴇᴀʀᴄʜ', callback_data='search'),
             InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph'),
             InlineKeyboardButton('ғᴜɴ', callback_data='fun')
+            ],[
+            InlineKeyboardButton('⬅️ ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ɴᴇxᴛ ➡️', callback_data='rexienext')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -460,7 +463,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "rexienext":
         buttons = [[
-            InlineKeyboardButton('✖️ 𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ᴀʟɪᴠᴇ', callback_data='alive'),
+            InlineKeyboardButton('sᴏɴɢ', callback_data='song'),
+            InlineKeyboardButton('ᴊsᴏɴ', callback_data='json')
+            ],[
+            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
