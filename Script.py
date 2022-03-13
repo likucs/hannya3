@@ -294,16 +294,19 @@ __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have T
 
 **👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
 
-    LOG_TEXT_G = """#NewGroup
-Group = {}(<code>{}</code>)
-Total Members = <code>{}</code>
-Added By - {}
+    LOG_TEXT_G = """<b>ʙᴏᴛ - ᴇʟᴏɴ ᴍᴜsᴋ 🔰
+
+📢 ɴᴇᴡ ɢʀᴏᴜᴘ</b>
+🔰 ɢʀᴏᴜᴘ = {}(<code>{}</code>)
+👥 ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs = <code>{}</code>
+🗣️ ᴀᴅᴅᴇᴅ ʙʏ - {}
 """
 
-    LOG_TEXT_P = """ʙᴏᴛ - ᴇʟᴏɴ ᴍᴜsᴋ 🔰
-<b>ɴᴇᴡ ᴜsᴇʀ</b>
-ID - <code>{}</code>
-Name - {}"""
+    LOG_TEXT_P = """<b>ʙᴏᴛ - ᴇʟᴏɴ ᴍᴜsᴋ 🔰
+
+👤 ɴᴇᴡ ᴜsᴇʀ</b>
+🔖 ɪᴅ- <code>{}</code>
+🔍 ɴᴀᴍᴇ - {}"""
 
     ZOMBIES_TXT = """Help: <b>Zombies</b>
 
