@@ -431,8 +431,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph'),
             InlineKeyboardButton('ғᴜɴ', callback_data='fun')
             ],[
-            InlineKeyboardButton('⬅️ ʜᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('ɴᴇxᴛ ➡️', callback_data='rexienext')
+            InlineKeyboardButton('ɴɪʟʟ ʙᴜᴛᴛᴏɴ', callback_data='paste'),
+            InlineKeyboardButton('ɴɪʟʟ ʙᴜᴛᴛᴏɴ', callback_data='coct')
+            InlineKeyboardButton('Mᴏᴅ ᴀᴘᴘ' url='https://t.me/cs_cloud')
+            ],[
+            InlineKeyboardButton('ᴀʟɪᴠᴇ', callback_data='alive'),
+            InlineKeyboardButton('sᴏɴɢ', callback_data='song'),
+            InlineKeyboardButton('ᴊsᴏɴ', callback_data='json')
+            ],[
+            InlineKeyboardButton('ᴘɪɴ', callback_data='pin'),
+            InlineKeyboardButton('ᴄᴏʀᴏɴᴀ', callback_data='corona'),
+            InlineKeyboardButton('sᴛɪᴄᴋᴇʀɪᴅ', callback_data='stickerid')
+            ],[
+            InlineKeyboardButton('ᴛᴛs', callback_data='tts'),
+            InlineKeyboardButton('ʏᴛᴠɪᴅ', callback_data='ytvid'),
+            InlineKeyboardButton('ᴄᴏᴜɴᴛʀʏ', callback_data='countryinfo')
+            ],[
+            InlineKeyboardButton('⬅️ ʟᴇғᴛ', callback_data='start'),
+            InlineKeyboardButton('🌐 sᴛᴀᴛᴜs', callback_data='stats'),
+            InlineKeyboardButton('🕋 ʀɪɢʜᴛ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
