@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('📀 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/+_XSzXv8YpChiMTNl')
+                InlineKeyboardButton('📀 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/+tkAjvYxAr7VmZjY1')
             ],
             [
                 InlineKeyboardButton('📚 𝖧𝖾𝗅𝗉', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -36,14 +36,15 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [[
-            InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs➕', url='http://t.me/MH_elonmusk_bot?startgroup=true')
-        ],[
-            InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😎 ᴀʙᴏᴜᴛ', callback_data='about')
-        ],[ 
-            InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Rexie_Support')
-        ]]
+        buttons = [
+        [InlineKeyboardButton("ᴏᴡɴᴇʀ 👑", url="https://t.me/iAmLiKu1")],
+        [
+            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ❓", callback_data="help"),
+            InlineKeyboardButton("🔹Aʙᴏᴜᴛ🔹", callback_data="about")
+        ],
+        [InlineKeyboardButton("🔰 Mᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ 🔰", url="https://t.me/+tkAjvYxAr7VmZjY1")],
+        [InlineKeyboardButton("👥 ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ 👥", url="https://t.me/+oMiWi94WoAQ0MmY5")],
+    ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -76,14 +77,15 @@ async def start(client, message):
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
-            InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs➕', url='http://t.me/MH_elonmusk_bot?startgroup=true')
-        ],[
-            InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😎 ᴀʙᴏᴜᴛ', callback_data='about')
-        ],[ 
-            InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Rexie_Support')
-        ]]
+        buttons = [
+        [InlineKeyboardButton("ᴏᴡɴᴇʀ 👑", url="https://t.me/iAmLiKu1")],
+        [
+            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ❓", callback_data="help"),
+            InlineKeyboardButton("🔹Aʙᴏᴜᴛ🔹", callback_data="about")
+        ],
+        [InlineKeyboardButton("🔰 Mᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ 🔰", url="https://t.me/+tkAjvYxAr7VmZjY1")],
+        [InlineKeyboardButton("👥 ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ 👥", url="https://t.me/+oMiWi94WoAQ0MmY5")],
+    ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -112,9 +114,9 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("🔰 ɢʀᴏᴜᴘ", url="https://t.me/+B30iFua0Hk8yYWU9"),
-                                              InlineKeyboardButton("🎁 sʜᴀʀᴇ", url="https://t.me/share/url?url=https://t.me/MovieHubOtt") ],
-                                            [ InlineKeyboardButton("🔖 sᴜʙᴛɪᴛʟᴇ", url="https://t.me/subtitle_dl_bot") ] ] )
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("🔰 ɢʀᴏᴜᴘ", url="https://t.me/+oMiWi94WoAQ0MmY5"),
+                                              InlineKeyboardButton("🥰 sʜᴀʀᴇ", url="https://t.me/share/url?url=https://t.me/+oMiWi94WoAQ0MmY5") ],
+                                            [ InlineKeyboardButton("✨ ᴏᴡɴᴇʀ", url="https://t.me/iAmLiKu1") ] ] )
         )
                     
 
