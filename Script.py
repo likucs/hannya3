@@ -1,12 +1,12 @@
 class script(object):
     START_TXT = """<b>𝖧ᴇʟʟᴏ {} 🙋🏻‍♂️
 
-𝖬ʏ 𝖭ᴀᴍᴇ ɪs <a href='https://t.me/MH_elonmusk_bot'>𝖤ʟᴏɴ 𝖬ᴜsᴋ.</a> 𝖠 𝖲ᴍᴀʀᴛ 𝖱ᴏʙᴏᴛ 𝖶ɪᴛʜ 𝖬ᴀɴʏ 𝖠ᴍᴀᴢɪɴɢ 𝖥ᴇᴀᴛᴜʀᴇs. 𝖨 𝖢ᴀɴ 𝖯ʀᴏᴠɪᴅᴇ 𝖬ᴏᴠɪᴇs & 𝖧ᴇʟᴘ 𝖸ᴏᴜ 𝖳ᴏ 𝖬ᴀɴᴀɢᴇ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘs, 𝖩ᴜsᴛ 𝖠ᴅᴅ 𝖬ᴇ 𝖳ᴏ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘ 𝖠s 𝖠ᴅᴍɪɴ 𝖠ɴᴅ 𝖤ɴᴊᴏʏ.....🥰</b>
+𝖬ʏ 𝖭ᴀᴍᴇ ɪs <a href='https://t.me/mcmoviesData2_Bot'>ʜᴀɴɴʏᴀ.</a> 𝖠 𝖲ᴍᴀʀᴛ 𝖱ᴏʙᴏᴛ 𝖶ɪᴛʜ 𝖬ᴀɴʏ 𝖠ᴍᴀᴢɪɴɢ 𝖥ᴇᴀᴛᴜʀᴇs. 𝖨 𝖢ᴀɴ 𝖯ʀᴏᴠɪᴅᴇ 𝖬ᴏᴠɪᴇs & 𝖧ᴇʟᴘ 𝖸ᴏᴜ 𝖳ᴏ 𝖬ᴀɴᴀɢᴇ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘs, 𝖩ᴜsᴛ 𝖠ᴅᴅ 𝖬ᴇ 𝖳ᴏ 𝖸ᴏᴜʀ 𝖦ʀᴏᴜᴘ 𝖠s 𝖠ᴅᴍɪɴ 𝖠ɴᴅ 𝖤ɴᴊᴏʏ.....🥰</b>
 """
     HELP_TXT = """<b>HEY {} DUDE 🙋‍♂️
 📚 𝖢ᴏᴍᴍᴀɴᴅ ʜᴇʟᴘ 📚</b>"""
     ABOUT_TXT = """
-<b>🤖 ʙᴏᴛ ɴᴀᴍᴇ: <a href='https://t.me/MH_elonmusk_bot'>𝖤ʟᴏɴ 𝖬ᴜsᴋ.</a>
+<b>🤖 ʙᴏᴛ ɴᴀᴍᴇ: <a href='https://t.me/mcmoviesData2_Bot'>ʜᴀɴɴʏᴀ.</a>
 
 📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/'>ᴘʏᴛʜᴏɴ</a>
 
@@ -14,21 +14,19 @@ class script(object):
 
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : <a href='http://heroku.com/'>ʜᴇʀᴏᴋᴜ</a>
 
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/OGGY123kph'>sʜɪᴠᴀ ᴛɢ 🇮🇳</a>
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/iAmLiKu1'>ᴄs ʟɪᴋᴜ ❥︎</a>
 
-💡 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/kgf_2_movie_r'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+💡 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/cs_cloud'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
-👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me/Rexie_Support'>ʀᴇxɪᴇ sᴜᴘᴘᴏʀᴛ</a>
+👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me/+oMiWi94WoAQ0MmY5'>Mᴏᴠɪᴇs ᴄʟᴜʙ</a>
 
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/MovieHubOtt'>ᴍʜ ᴜᴘᴅᴀᴛᴇs</a>
-\n\n🔖 𝑸𝒖𝒐𝒕𝒆 : <code>ആരും പേടിക്കേണ്ട എല്ലാവർക്കും കിട്ടും</code></b>"""
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+qdq5ZO_xDytkYzJl'>ᴍᴄ ᴄʟᴜʙ</a>
+\n\n🔖 𝑸𝒖𝒐𝒕𝒆 : <code>plz bro credit de dena</code></b>"""
     SOURCE_TXT = """<b>NOTE:</b>
-<b>𝖳𝗁𝗂𝗌 𝖡𝗈𝗍 𝖶𝖺𝗌 𝖬𝖺𝗄𝖾𝖽 𝖳𝖺𝗄𝗂𝗇𝗀 𝖲𝗈𝗆𝖺𝗇𝗒 𝖱𝖾𝗉𝗈𝗌 𝖮𝖿 𝖮𝗍𝗁𝖾𝗋 𝖪𝗂𝗇𝖽 𝖡𝗈𝗍𝗌
-𝖲𝖮𝖴𝖱𝖢𝖤 𝖢𝖮𝖣𝖤 ~ 𝖭𝖮𝖳 𝖠𝖵𝖠𝖨𝖫𝖠𝖡𝖫𝖤 𝖱𝖨𝖦𝖧𝖳 𝖭𝖮𝖶</b>
-<b>𝖮𝖳𝖧𝖤𝖱 𝖪𝖨𝖭𝖣 𝖡𝖮𝖳𝖲:</b>
-<b>𝖠𝖴𝖳𝖮 𝖥𝖨𝖫𝖳𝖤𝖱</b> : <a href='https://github.com/EvamariaTG/EvaMaria'>𝖤𝗏𝖺 𝖬𝖺𝗋𝗂𝖺</a>
-<b>𝖲𝖮𝖭𝖦</b> :  <a href='https://github.com/AsmSafone/RadioPlayerV2'>𝖠𝗌𝗆𝖲𝖺𝖿𝗈𝗇𝖾</a>
-<b>𝖥𝖨𝖫𝖳𝖤𝖱</b> : <a href='https://github.com/TroJanzHEX/Unlimited-Filter-Bot'>𝖴𝗇𝗅𝗂𝗆𝗂𝗍𝖾𝖽 𝖥𝗂𝗅𝗍𝖾𝗋 𝖡𝗈𝗍</a>"""
+<b>𝖳𝗁𝗂𝗌 𝖡𝗈𝗍 𝖶𝖺𝗌 𝖬𝖺𝗄𝖾𝖽 𝖳𝖺𝗄𝗂𝗇𝗀 kanng 𝖱𝖾𝗉𝗈𝗌 𝖮𝖿 𝖮𝗍𝗁𝖾𝗋 𝖪𝗂𝗇𝖽 𝖡𝗈𝗍𝗌
+» Tʜɪs Is A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Bᴏᴛ.
+» Fᴏʀ Mᴏʀᴇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ.</b>
+<b>CONTACT MY OWNER:</b>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 
@@ -100,8 +98,8 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
     REXIENEXT_TXT = """<b>📚 ᴄᴏᴍᴍᴀɴᴅs - 2 📚</b>"""
     ONWERSHIVA_TXT = """"⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝖲ʜɪᴠᴀ
-• ᴜꜱᴇʀɴᴀᴍᴇ : @OGGY123kph
+• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝘾𝙨 𝙇𝙞𝙆𝙪 
+• ᴜꜱᴇʀɴᴀᴍᴇ : @iAmLiKu1
 “ 𝐷ᴏ 𝑁ᴏᴛ 𝑤ᴀsᴛᴇ 𝑇ɪᴍᴇ ᴏɴ 𝑈ɴɴᴇᴄᴇssᴀʀʏ 𝑇ʜɪɴɢs ᴏɴʟʏ ɪғ ɪᴛ ᴅᴏᴇs 𝑁ᴏᴛ 𝐻ᴇʟᴘ 𝑌ᴏᴜ😉. ”"""
 
     BUTTON_TXT = """Help: <b>Buttons</b>
@@ -114,7 +112,7 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
+<code>[Button Text](buttonurl:https://t.me/cs_cloud)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -234,7 +232,7 @@ A Module To Convert TEXT To Voice With Language Support
     SUPP_TXT = """<b>𝖧𝖾𝗋𝖾 𝗂𝗌 𝖳𝗁𝖾 𝖮𝗎𝗋 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉𝗌 𝖫𝗂𝗇𝗄𝗌...🙃
 
 𝖠𝗋𝖾 𝖸𝗈𝗎 𝖫𝗂𝗄𝖾 𝖳𝗁𝖾 𝖡𝗈𝗍 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖮𝗎𝗋 𝖳𝖾𝖺𝗆 ☺️
-~𝗕𝗬 𝗠𝗢𝗩𝗜𝗘 𝗛𝗨𝗕</b>"""
+~Bʏ Mᴄ Cʟᴜʙ</b>"""
     YTVID_TXT = """<b>𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖠𝗇𝗒 𝖬𝗉4 𝖸𝗈𝗎𝗍𝗎𝖻𝖾 𝖵𝗂𝖽𝖾𝗈𝗌..❣️</b>
 
 • /video or /mp4 (songname) - <b>download video from yt servers</b>"""
@@ -297,7 +295,7 @@ __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have T
     LOG_TEXT_G = """<b>ʙᴏᴛ - ᴇʟᴏɴ ᴍᴜsᴋ 🔰
 
 📢 ɴᴇᴡ ɢʀᴏᴜᴘ</b>
-🔰 ɢʀᴏᴜᴘ = {}(<code>{}</code>)
+🌈 ɢʀᴏᴜᴘ = {}(<code>{}</code>)
 👥 ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs = <code>{}</code>
 🗣️ ᴀᴅᴅᴇᴅ ʙʏ - {}
 """
