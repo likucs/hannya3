@@ -433,7 +433,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ɴɪʟʟ ʙᴜᴛᴛᴏɴ', callback_data='paste'),
             InlineKeyboardButton('ɴɪʟʟ ʙᴜᴛᴛᴏɴ', callback_data='coct')
-            InlineKeyboardButton('Mᴏᴅ ᴀᴘᴘ' url='https://t.me/cs_cloud')
+            InlineKeyboardButton("Mᴏᴅ ᴀᴘᴘ" url="https://t.me/cs_cloud")
             ],[
             InlineKeyboardButton('ᴀʟɪᴠᴇ', callback_data='alive'),
             InlineKeyboardButton('sᴏɴɢ', callback_data='song'),
